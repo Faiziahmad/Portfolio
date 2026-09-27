@@ -18,4 +18,4 @@ To make one design the homepage, rename it to `index.html`.
 
 ## Before going live
 
-Search each page for `[X]`, `[YOUR EMAIL]`, `[YOUR-HANDLE]` and `TODO` and fill in your details.
+Search each page for `[X]`, `[YOUR-HANDLE]` and `TODO` and fill in your details.
