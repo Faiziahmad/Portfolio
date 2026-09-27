@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faizi Ahmad — Portfolio Designs</title>
+<meta name="description" content="Pick a design version of Faizi Ahmad's portfolio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root { --bg: #0a0a0f; --card: #13131b; --line: rgba(255,255,255,.1); --text: #fff; --muted: #8a8a9a; color-scheme: dark; }
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --bg: #f4f4f6; --card: #fff; --line: rgba(0,0,0,.1); --text: #111; --muted: #666; color-scheme: light; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.6 Inter, system-ui, sans-serif; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 72px 16px; }
+h1 { font: 800 clamp(34px, 6vw, 64px)/1 Syne, sans-serif; letter-spacing: -.04em; margin: 0 0 12px; }
+p.sub { color: var(--muted); margin: 0 0 40px; }
+.grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+a.card { display: block; text-decoration: none; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px; transition: transform .3s, border-color .3s; }
+a.card:hover { transform: translateY(-4px); border-color: var(--c); }
+.sw { width: 44px; height: 44px; border-radius: 12px; background: var(--c); margin-bottom: 18px; box-shadow: 0 0 30px -6px var(--c); }
+.card b { display: block; font: 700 20px Syne, sans-serif; }
+.card span { color: var(--muted); font-size: 14px; }
+.card code { display: inline-block; margin-top: 12px; font: 500 12px "JetBrains Mono", monospace; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Faizi Ahmad</h1>
+  <p class="sub">Portfolio designs. Pick one to view.</p>
+  <div class="grid">
+    <a class="card" href="red.html" style="--c:#ff2d55"><div class="sw"></div><b>Red</b><span>The original dark design.</span><br><code>red.html</code></a>
+    <a class="card" href="blue.html" style="--c:#3d8bff"><div class="sw"></div><b>Blue</b><span>Original design in electric blue, smaller text.</span><br><code>blue.html</code></a>
+    <a class="card" href="violet.html" style="--c:#9b6bff"><div class="sw"></div><b>Violet</b><span>Original design in violet, smaller text.</span><br><code>violet.html</code></a>
+    <a class="card" href="green.html" style="--c:#1fd99a"><div class="sw"></div><b>Green</b><span>Original design in emerald, smaller text.</span><br><code>green.html</code></a>
+    <a class="card" href="light.html" style="--c:#2f4bff"><div class="sw"></div><b>Light</b><span>Warm light layout in plain English.</span><br><code>light.html</code></a>
+    <a class="card" href="futuristic.html" style="--c:#ff4d00"><div class="sw"></div><b>Futuristic</b><span>Hardware-style layout in plain English.</span><br><code>futuristic.html</code></a>
+  </div>
+</div>
+</body>
+</html>
